@@ -23,6 +23,7 @@ public class uebung2 {
         }
     }
 }
+
         // Erstelle zwei Zufallszahl zwischen 0 und 100
 
         // Wenn die erste Zahl kleiner ist als die zweite UND die erste Zahl kleiner ist als 50
