@@ -66,6 +66,7 @@ public class cubegame {
                 else {
                     System.out.println("Sie haben Gewonnen");
                     cubegame = true;
+
                 }
             }
         }
