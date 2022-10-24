@@ -25,6 +25,9 @@ public class tictactoe {
             Scanner scanner = new Scanner(System.in);
             int selection = scanner.nextInt();
 
+            //if (selection == ("0,0")) {
+                //playGround.length = row;
+            }
         }
     }
 }
