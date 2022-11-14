@@ -29,6 +29,7 @@ public class tictactoe {
                 isPlayerOne = true;
             }
             System.out.println(isPlayerOne);
+            System.out.println(isPlayerOne);
         }
     }
 
