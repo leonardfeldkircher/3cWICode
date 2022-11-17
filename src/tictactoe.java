@@ -29,7 +29,6 @@ public class tictactoe {
                 isPlayerOne = true;
             }
             System.out.println(isPlayerOne);
-            System.out.println(isPlayerOne);
         }
     }
 
@@ -40,5 +39,11 @@ public class tictactoe {
             }
             System.out.println();
         }
+    }
+    private static void otherPlayer(int[][] playGround) {
+        for(isPlayerOne == true) {
+            y == 2;
+        }
+
     }
 }

@@ -1,5 +1,5 @@
 public class StingHelper {
-package at.run.basics;
+
     public class StringHelper {
 
         public static boolean isPalindrome(String original) {
