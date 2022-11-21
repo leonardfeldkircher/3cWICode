@@ -1,3 +1,5 @@
+package java;
+
 public class StingHelper {
 
     public class StringHelper {
