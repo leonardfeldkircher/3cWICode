@@ -1,12 +1,18 @@
 package oo.cars;
 
-public class car {
+public class Car {
     public String color;
     public double fuelConsumption;
     public String serialnumber;
     public double fuelAmount;
     public int speed;
     public int amountOfRepetitions;
+    public int getRemainingRange;
+
+    public Car(int fc, String sn){
+        this.fuelConsumption = fc;
+        this.serialnumber = sn;
+    }
 
 
     public void drive() {
@@ -31,12 +37,13 @@ public class car {
     }
 
     public void honk() {
-
+    amountOfRepetitions = 2;
+    System.out.println("Tuuut"+" ");
     }
 
     public void getRemainingRange() {
         System.out.println("Verbleibende Reichweite");
-        getRemainingRange = this.fuelAmount/this.fuelConsumption * 100;
+        this.getRemainingRange = (int) (this.fuelAmount/this.fuelConsumption * 100);
     }
 }
 
