@@ -45,5 +45,33 @@ public class Car {
         System.out.println("Verbleibende Reichweite");
         this.getRemainingRange = (int) (this.fuelAmount/this.fuelConsumption * 100);
     }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setAmountOfRepetitions(int amountOfRepetitions) {
+        this.amountOfRepetitions = amountOfRepetitions;
+    }
+
+    public void setFuelAmount(double fuelAmount) {
+        this.fuelAmount = fuelAmount;
+    }
+
+    public void setFuelConsumption(double fuelConsumption) {
+        this.fuelConsumption = fuelConsumption;
+    }
+
+    public void setGetRemainingRange(int getRemainingRange) {
+        this.getRemainingRange = getRemainingRange;
+    }
+
+    public void setSerialnumber(String serialnumber) {
+        this.serialnumber = serialnumber;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
 }
 
