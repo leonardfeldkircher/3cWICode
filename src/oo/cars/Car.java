@@ -1,6 +1,7 @@
 package oo.cars;
 
 public class Car {
+    public Engine engine;
     public String color;
     public double fuelConsumption;
     public String serialnumber;
@@ -9,7 +10,8 @@ public class Car {
     public int amountOfRepetitions;
     public int getRemainingRange;
 
-    public Car(int fc, String sn){
+    public Car(int fc, String sn, Engine engine){
+        this.engine = engine;
         this.fuelConsumption = fc;
         this.serialnumber = sn;
     }
@@ -37,8 +39,7 @@ public class Car {
     }
 
     public void honk() {
-    amountOfRepetitions = 2;
-    System.out.println("Tuuut"+" ");
+        System.out.println("Car has " + this.color + this.fuelAmount + this.getEngine().getHorsePower() + " ps");
     }
 
     public void getRemainingRange() {
@@ -72,6 +73,42 @@ public class Car {
 
     public void setSpeed(int speed) {
         this.speed = speed;
+    }
+
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public double getFuelConsumption() {
+        return fuelConsumption;
+    }
+
+    public String getSerialnumber() {
+        return serialnumber;
+    }
+
+    public double getFuelAmount() {
+        return fuelAmount;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public int getAmountOfRepetitions() {
+        return amountOfRepetitions;
+    }
+
+    public int getGetRemainingRange() {
+        return getRemainingRange;
     }
 }
 

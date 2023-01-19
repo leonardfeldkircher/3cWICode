@@ -1,10 +1,11 @@
 package oo;
 
 import oo.cars.Car;
+import oo.cars.Engine;
 
 public class ooFirstObject {
     public static void main(String[] args) {
-        Car c1 = new Car(10,"hans");
+        Car c1 = new Car(15,"T1234",new Engine(235, Engine.TYPE.Gas));
         c1.color = "black";
         c1.fuelConsumption = 6.0;
         c1.serialnumber = "T1234";
@@ -24,7 +25,7 @@ public class ooFirstObject {
         c1.drive();
         System.out.println(c1.fuelAmount);
 
-        Car c3 = new Car(17, "12544");
+        Car c3 = new Car(17, "12544", new Engine(523, Engine.TYPE.Diesel));
 
         System.out.println(c3.serialnumber);
     }
