@@ -14,7 +14,10 @@ public class Main {
         Car c1 = new Car(25,"T1234",new Engine(435, Engine.TYPE.Gas));
         c1.addMirror(r1);
         c1.addMirror(r2);
-
+        c1.addTire(t1);
+        c1.addTire(t2);
+        c1.addTire(t3);
+        c1.addTire(t4);
 
         System.out.println(c1.getMirrors().get(0).getPosition());
 

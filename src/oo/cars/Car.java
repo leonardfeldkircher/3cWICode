@@ -20,6 +20,7 @@ public class Car {
         this.fuelConsumption = fc;
         this.serialnumber = sn;
         this.mirrors = new ArrayList<>();
+        this.tiers = new ArrayList<>();
     }
 
 
@@ -59,6 +60,14 @@ public class Car {
 
     public List<RearMirror> getMirrors(){
         return mirrors;
+    }
+
+    public void addTire(Tiers tiers){
+        this.tiers.add(tiers);
+    }
+
+    public List<Tiers> getTiers(){
+        return tiers;
     }
 
     public void setColor(String color) {
