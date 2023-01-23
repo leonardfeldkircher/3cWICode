@@ -1,5 +1,8 @@
 package oo.cars;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Car {
     public Engine engine;
     public String color;
@@ -9,11 +12,14 @@ public class Car {
     public int speed;
     public int amountOfRepetitions;
     public int getRemainingRange;
+    public List<RearMirror> mirrors;
+    public List<Tiers> tiers;
 
     public Car(int fc, String sn, Engine engine){
         this.engine = engine;
         this.fuelConsumption = fc;
         this.serialnumber = sn;
+        this.mirrors = new ArrayList<>();
     }
 
 
@@ -45,6 +51,14 @@ public class Car {
     public void getRemainingRange() {
         System.out.println("Verbleibende Reichweite");
         this.getRemainingRange = (int) (this.fuelAmount/this.fuelConsumption * 100);
+    }
+
+    public void addMirror(RearMirror rearMirror){
+        this.mirrors.add(rearMirror);
+    }
+
+    public List<RearMirror> getMirrors(){
+        return mirrors;
     }
 
     public void setColor(String color) {
