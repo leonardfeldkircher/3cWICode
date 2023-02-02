@@ -11,11 +11,7 @@ public class Battery {
         return state;
     }
 
-    public void setState(double state) {
-        this.state = state;
-    }
-
     public void getStatus(){
-        //getState()
+        this.state = state;
     }
 }

@@ -6,6 +6,7 @@ public class Main {
 
     private Battery battery1;
     private Battery battery2;
+
     private int state;
 
     public Main(Battery battery1, Battery battery2) {
