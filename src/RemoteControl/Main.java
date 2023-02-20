@@ -18,4 +18,5 @@ public class Main {
       double state = (battery1.getState() + battery2.getState() / 2);
       return state;
     }
+
 }
