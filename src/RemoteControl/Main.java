@@ -1,7 +1,5 @@
 package RemoteControl;
 
-import javax.swing.plaf.nimbus.State;
-
 public class Main {
 
     private Battery battery1;
@@ -19,4 +17,17 @@ public class Main {
       return state;
     }
 
+    public void turnOn(){
+        this.battery1.setState(battery1.getState()-5);
+        this.battery2.setState(battery2.getState()-5);
+        System.out.println("Verbraucher angeschlossen");
+    }
+
+    public Battery getBattery1(){
+        return battery1;
+    }
+
+    public Battery getBattery2() {
+        return battery2;
+    }
 }
