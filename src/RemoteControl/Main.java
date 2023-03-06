@@ -17,10 +17,16 @@ public class Main {
       return state;
     }
 
-    public void turnOn(){
+    public String turnOn(){
         this.battery1.setState(battery1.getState()-5);
         this.battery2.setState(battery2.getState()-5);
-        System.out.println("Verbraucher angeschlossen");
+        String on = "Verbraucher angeschlossen";
+        return on;
+    }
+
+    public String turnOff(){
+        String off = "Kein Verbraucher angeschlossen";
+        return off;
     }
 
     public Battery getBattery1(){
