@@ -6,7 +6,7 @@ public class Car {
     public double BasePrice;
     public double BaseConsumption;
     public Manufacturer manufacturer;
-    double CarPrice;
+    public double CarPrice;
 
 
 
@@ -19,8 +19,18 @@ public class Car {
     }
 
 
-    public void Price(){
+    public double CarPrice(){
         this.manufacturer.getSale();
-        double CarPrice = BasePrice / 100 * this.manufacturer.getSale() + BasePrice;
+        double CarPrice = (BasePrice / 100 * manufacturer.getSale() + BasePrice);
+        return CarPrice;
+    }
+
+    public double getCarPrice() {
+        this.CarPrice = CarPrice;
+        return CarPrice;
+    }
+
+    public double getBasePrice() {
+        return BasePrice;
     }
 }

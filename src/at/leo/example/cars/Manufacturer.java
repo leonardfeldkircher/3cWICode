@@ -35,4 +35,6 @@ public class Manufacturer {
     public void setSale(double sale) {
         Sale = sale;
     }
+
+
 }
