@@ -33,4 +33,8 @@ public class Car {
     public double getBasePrice() {
         return BasePrice;
     }
+
+    public String getColor() {
+        return Color;
+    }
 }

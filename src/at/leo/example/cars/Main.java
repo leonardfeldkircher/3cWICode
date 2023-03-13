@@ -8,5 +8,6 @@ public class Main {
 
         System.out.println();
         System.out.println(c1.getCarPrice());
+        System.out.println(e1.getClass());
     }
 }
