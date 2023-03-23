@@ -1,16 +1,25 @@
 package lamp;
 
 public class Lamp {
-   /* private void addLightElement{
+    private String LightElement;
 
+   private void addLightElement(){
+       // this.LightElement.
     }
 
-    private double getOverallPowerUsage{
-
+    public void turnAllOn(){
+       // this.
     }
 
-    private void printNamesofLightelements{
+    private void printNamesofLightelements(){
 
+    };
+
+    public String getLightElement() {
+        return LightElement;
     }
-*/
+
+    public void setLightElement(String lightElement) {
+        LightElement = lightElement;
+    }
 }
