@@ -14,3 +14,4 @@ public class RootCalculator extends BasicCalculator {
         return squareRoot;
     }
 }
+

@@ -15,5 +15,6 @@ public class Main {
         System.out.println("Wurzel " + rootCalculator1.SquareRoot());
         System.out.println("Sinus " + trigonometricCalculator1.Sinus());
         System.out.println("Cosinus " + trigonometricCalculator1.Cosinus());
+        System.out.println("Tangens " + trigonometricCalculator1.Cosinus());
     }
 }
